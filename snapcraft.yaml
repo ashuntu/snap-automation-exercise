@@ -50,6 +50,7 @@ parts:
 
   app-2:
     source: https://github.com/ashuntu/versioning-example-app-2
+    source-type: git
     plugin: make
 
   app-3:
