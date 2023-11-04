@@ -49,7 +49,7 @@ parts:
       craftctl set version=$(git describe --tags --abbrev=10)
 
   app-2:
-    source: https://github.com/ashuntu/versioning-example-app-2/archive/refs/tags/0.1.0.tar.gz
+    source: https://github.com/ashuntu/versioning-example-app-2
     plugin: make
 
   app-3:
