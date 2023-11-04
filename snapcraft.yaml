@@ -52,12 +52,14 @@ parts:
     source: https://github.com/ashuntu/versioning-example-app-2
     source-type: git
     source-depth: 1
+    source-branch: main
     plugin: make
 
   app-3:
     source: https://github.com/ashuntu/versioning-example-app-3
     source-type: git
     source-depth: 1
+    source-branch: main
     plugin: dump
     organize:
       app-3: usr/bin/
